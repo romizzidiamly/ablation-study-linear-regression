@@ -1,0 +1,2 @@
+Experiment_ID,max |pred - pred_B0|,Train_RMSE,Delta_vs_B0
+B1_standard,0.0,5.375374581809464,0.0

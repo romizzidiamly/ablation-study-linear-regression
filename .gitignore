@@ -1,0 +1,22 @@
+# Ignore everything by default, then re-include only what belongs to this assignment.
+# The working folder contains many unrelated notebooks and outputs from earlier projects.
+*
+
+!.gitignore
+!README.md
+
+# Assignment notebook
+!TUGAS-ABLATION-STUDY.ipynb
+
+# Dataset
+!student_habits_performance.csv
+
+# Output folders used by the notebook
+!results/
+!results/**
+!figures/
+!figures/**
+
+# Never track caches / checkpoints
+**/__pycache__/
+.ipynb_checkpoints/
